@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Document</title>
+  </head>
+  <body> 
+    <header class="header">
+      <section class="header__logo"><img src="../media/logo.png" alt="">
+        <h1>Discount calculator</h1>
+      </section>
+    </header>
+    <main class="main">
+      <section class="main__box">
+        <form class="main__form" action=""> 
+          <label for="price__input">What is the price?</label>
+          <input class="form__input" id="price__input" type="number">
+          <label for="discount__input">What is the discount? (in %)</label>
+          <input class="form__input" id="discount__input" type="number">
+          <button class="form__button" type="button" onclick="calculateDiscount()">Calculate</button>
+        </form>
+        <div class="main__box--output"> <span id="discount__output">Your result will appear here 😁</span></div>
+      </section>
+    </main>
+    <footer> 
+      <p>Made with 💚 by @santinaranjo</p>
+    </footer>
+    <script src="../functions.js"> </script>
+  </body>
+</html>
